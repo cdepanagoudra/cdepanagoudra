@@ -1,7 +1,7 @@
 <h2>Hey 👋, I'm Chetan Depanagoudra</h2>
 <p>I'm currently a software engineer at <strong><a href="https://www.capgemini.com/">Capgemini</a></strong> based in 🌁 Bangalore, IN. I am working on some side projects, learning a couple new technology, and trying to conquer the world as Tannu Tuva in HOI4.</p>
 <p> <a href="https://www.linkedin.com/in/chetan-depanagoudra/"><img src="https://img.shields.io/badge/LinkedIn-https%3A%2F%2Fwww.linkedin.com%2Fin%2Fchetan-depanagoudra%2F></a> <a href="https://leetcode.com/u/Chetan_Depanagoudra/"><img src="https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Solved&query=solved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FChetan_Depanagoudra&logo=leetcode&logoColor=yellow"></a> </p>
-[![LeetCode user Chetan_Depanagoudra](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FChetan_Depanagoudra&logo=leetcode&logoColor=yellow)](https://leetcode.com/Chetan_Depanagoudra/)
+
 <p>🍌 Don't forget to get some Potassium 🍌</p>
 <img align="right" src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" />
 <h2>⚡️ A Few Quick Facts</h2>
