@@ -1,6 +1,5 @@
 <h2>Hey 👋, I'm Chetan Depanagoudra</h2>
 <p>I'm currently a software engineer at <strong><a href="https://www.capgemini.com/">Capgemini</a></strong> based in 🌁 Bangalore, IN. I am working on some side projects, learning a couple new technology, and trying to conquer the world as Tannu Tuva in HOI4.</p>
-<p> <a href="https://www.linkedin.com/in/chetan-depanagoudra/"><img src="https://img.shields.io/badge/LinkedIn-https%3A%2F%2Fwww.linkedin.com%2Fin%2Fchetan-depanagoudra%2F></a> <a href="https://leetcode.com/u/Chetan_Depanagoudra/"><img src="https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Solved&query=solved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FChetan_Depanagoudra&logo=leetcode&logoColor=yellow"></a> </p>
 
 <p>🍌 Don't forget to get some Potassium 🍌</p>
 <img align="right" src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" />
@@ -9,11 +8,15 @@
 <li>🔭 I’m currently working on personal project's</li>
 <li>🧐 Learning about <strong>Microservice architectures</strong>, <strong>Cloud </strong>, and a bit of <strong>Deployment</strong>.</li>
 <li>👨‍💻 Most of my projects are available on <a href="https://github.com/cdepanagoudra">Github</a>.</li>
-<li>📝 I <del>regulary</del> solve DSA problem's on <a href="https://leetcode.com/u/Chetan_Depanagoudra/">Leetcode Profile</a>.</li>
+<li>📝 I <del>regulary</del> solve DSA problem's on <a href="https://leetcode.com/u/Chetan_Depanagoudra/">Leetcode Profile</a>.<img src="https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=black&color=%23ffa116&label=Solved&query=solved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FChetan_Depanagoudra&logo=leetcode&logoColor=yellow"></li>
 <li>💬 Ping me about <strong>java, springboot, security, and cloud stuff</strong>.</li>
 <li>📙 Check out my <a href="https://github.com/cdepanagoudra/cdepanagoudra/blob/main/Resume_Chetan.pdf">Resume</a>.</li>
 <li>🎉 Fun Fact: The first computer ‘bug’ was an actual bug!。</li>
 </ul>
+
+<h2>🚀 Connect with me</h2>
+<p><a href="https://www.linkedin.com/in/chetan-depanagoudra/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white"></a> <a href="https://www.instagram.com/c_r_d_007/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"></a></p>
+
 
 <h2>🚀 Some Tools I Use</h2>
 <p align="left">
