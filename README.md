@@ -11,7 +11,7 @@
 <li>👨‍💻 Most of my projects are available on <a href="https://github.com/cdepanagoudra">Github</a>.</li>
 <li>📝 I <del>regulary</del> solve DSA problem's on <a href="https://leetcode.com/u/Chetan_Depanagoudra/">Leetcode Profile</a>.</li>
 <li>💬 Ping me about <strong>java, springboot, security, and cloud stuff</strong>.</li>
-<li>📙 Check out my <a href="">resume</a>.</li>
+<li>📙 Check out my <a href="https://github.com/cdepanagoudra/cdepanagoudra/blob/main/Resume_Chetan.pdf">Resume</a>.</li>
 <li>🎉 Fun Fact: The first computer ‘bug’ was an actual bug!。</li>
 </ul>
 
