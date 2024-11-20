@@ -54,3 +54,9 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cdepanagoudra/cdepanagoudra/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/cdepanagoudra/cdepanagoudra/output/github-snake.svg" />
 </picture>
+
+<h2>🧑‍💻 My LeetCode Contributions Snake Animation</h2>
+
+Here is my LeetCode contributions snake animation:
+
+![LeetCode Snake Animation](https://<username>.github.io/<repository-name>/dist/leetcode-snake.svg)
