@@ -1,0 +1,39 @@
+name: LeetCode Contributions Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs at midnight UTC every day
+  push:
+    branches:
+      - main  # Triggers on push to main branch
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  generate-graph:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate LeetCode Contributions Graph
+        run: |
+          LEETCODE_USERNAME=${{ secrets.LEETCODE_USERNAME }} python generate_leetcode_graph.py
+
+      - name: Commit and Push Graph Image
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add output/leetcode-contributions.png
+          git commit -m "Update LeetCode contributions graph"
+          git push origin main
