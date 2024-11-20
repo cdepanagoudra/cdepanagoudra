@@ -55,7 +55,7 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/cdepanagoudra/cdepanagoudra/output/github-snake.svg" />
 </picture>
 
-<h2>🧑‍💻 My LeetCode Contributions Snake Animation</h2>
+<!-- <h2>🧑‍💻 My LeetCode Contributions Snake Animation</h2>
 
 Here is my LeetCode contributions snake animation:
 
@@ -63,4 +63,4 @@ Here is my LeetCode contributions snake animation:
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cdepanagoudra/cdepanagoudra/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cdepanagoudra/cdepanagoudra/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/cdepanagoudra/cdepanagoudra/output/github-snake.svg" />
-</picture>
+</picture> -->
