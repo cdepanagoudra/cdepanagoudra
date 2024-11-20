@@ -50,7 +50,7 @@ jobs:
       - name: Commit and Deploy Snake Animation
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update LeetCode snake animation [skip ci]"
