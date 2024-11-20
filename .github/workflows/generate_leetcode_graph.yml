@@ -1,39 +1,56 @@
-name: LeetCode Contributions Graph
+name: LeetCode Contributions Snake Animation
 
 on:
+  # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "0 0 * * *"  # Runs at midnight UTC every day
+    - cron: "0 0 * * *"
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+  # Trigger the workflow on pushes to the main branch
   push:
     branches:
-      - main  # Triggers on push to main branch
-  workflow_dispatch:  # Allows manual triggering of the workflow
+      - main
 
 jobs:
-  generate-graph:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Step 2: Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      # Step 3: Install dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate LeetCode Contributions Graph
-        run: |
-          LEETCODE_USERNAME=${{ secrets.LEETCODE_USERNAME }} python generate_leetcode_graph.py
+      # Step 4: Generate LeetCode Contributions Snake Animation
+      - name: Generate LeetCode Contributions Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ secrets.LEETCODE_USERNAME }}
+          # Here, we're modifying this to create the LeetCode-related snake animation
+          outputs: |
+            dist/leetcode-snake.svg
+            dist/leetcode-snake-dark.svg?palette=github-dark
+            dist/leetcode-ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push Graph Image
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add output/leetcode-contributions.png
-          git commit -m "Update LeetCode contributions graph"
-          git push origin main
+      # Step 5: Commit and deploy the generated files to the 'output' branch
+      - name: Commit and Deploy Snake Animation
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update LeetCode snake animation [skip ci]"
