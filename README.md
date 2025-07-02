@@ -1,5 +1,5 @@
 <h2>Hey 👋, I'm Chetan Depanagoudra</h2>
-<p>I'm currently a software engineer at <strong><a href="https://www.capgemini.com/">Capgemini</a></strong> based in 🌁 Bangalore, IN. I am working on some side projects, learning a couple new technology, and trying to conquer the world as Tannu Tuva in HOI4.</p>
+<p>I'm currently a software engineer at <strong><a href="https://www.capgemini.com/">Wissen working for Morgan Stanley</a></strong> based in 🌁 Bangalore, IN. I am working on some side projects, learning a couple new technology, and trying to conquer the world as Tannu Tuva in HOI4.</p>
 
 <p>🍌 Don't forget to get some Potassium 🍌</p>
 <img align="right" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTR5bjVrYXl1YzFkd2F2eHFwcDNwMDRiaW56N3kxYWxjZHB6bmMwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" />
